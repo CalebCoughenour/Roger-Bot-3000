@@ -1,2 +1,18 @@
+
+**Specs**
+
 1. Return empty string if empty string is given
-2. 
+2. Split entered numbers into an array
+3. Count up to entered number
+4. Check entered numbers to check if they contain 3, if true return "won't you be my neighbor?"
+5. Check entered numbers to check if they contain 2, if true return "boop"
+6. Check entered numbers to check if they contain 1, of true return "beep"
+7. Change each number up to entered number with "3", "2" & "1" replaced with rules above
+8. Return string
+
+
+counter()
+
+Test: "If given an empty string, return 
+Code: counter("")
+Expected Output: "Please enter a number"
