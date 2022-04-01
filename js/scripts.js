@@ -3,7 +3,7 @@ function counter(number) {
     return "Please enter a number";
   }
   let countedArray = [];
-  let numberArray = number.split("");
+  let numberArray = number.split(" ");
   let intArray = numberArray.map(function(number) {
     return parseInt(number);
   });
@@ -15,19 +15,19 @@ function counter(number) {
 }
 
 function rogifyNumbers(number) {
-
   let finalArray = [];
-  let countedArray = counter(number);
-  
+  let newArray = counter(number); 
 
-  for (let i = 0; i < countedArray.length; i++) {
-    if (countedArray[i].includes("3")) {
+  for (let i = 0; i < newArray.length; i++) {
+    if (newArray[i].includes(3)) {
       finalArray.push("won't you be my neighbor?");
-    } else if (countedArray[i].includes("2")) {
+    } else if (newArray[i].includes(2)) {
       finalArray.push("boop");
-    } else if (countedArray[i].includes("1")) {
+    } else if (newArray[i].includes(1)) {
       finalArray.push("beep");
+    } else {
+      finalArray.push(newArray[i]);
     }
   }
-  return finalArray;
+  return finalArray.toString();
 }

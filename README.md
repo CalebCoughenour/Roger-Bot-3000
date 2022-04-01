@@ -39,3 +39,7 @@ Expected output: ["boop"]
 Test: "Check all numbers, if contains 1, return "beep""
 code: rogifyNumbers("1");
 Expected output: ["beep"]
+
+Test: "when a number is entered, all numbers outside of rule will display in order"
+Code: rogifyNumbers("6")
+Expected output: ["beep", "boop", "won't you be my neighbor", "4", "5", "6"]
