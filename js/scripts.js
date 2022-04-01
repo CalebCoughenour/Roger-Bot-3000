@@ -11,5 +11,18 @@ function counter(number) {
     countedArray.push(i);
   }
   countedArray.push(intArray[0]);
-  console.log(countedArray);
+  return countedArray;
+}
+
+function rogifyNumbers(number) {
+
+  let finalArray = [];
+  let countedArray = counter(number);
+
+  for (let i = 0; i < countedArray.length; i++) {
+    if (number[i] === 3) {
+      countedArray.shift(number);
+      finalArray.unshift("Won't you be my neighbor?")
+  }
+  return finalArray;
 }
