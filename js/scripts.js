@@ -3,15 +3,11 @@ function counter(number) {
     return "Please enter a number";
   }
   let countedArray = [];
-  let numberArray = number.split(" ");
-  let intArray = numberArray.map(function(number) {
-    return parseInt(number);
-  });
-  for (let i = 0; i < intArray; i++) {
-    countedArray.push(i);
+  let numberInt = parseInt(number);
+  for (let i = 0; i <= numberInt; i++) {
+    countedArray.push(i.toString());
   }
-  countedArray.push(intArray[0]);
-  return countedArray.toString("");
+  return countedArray;
 }
 
 function rogifyNumbers(number) {
@@ -29,5 +25,5 @@ function rogifyNumbers(number) {
       finalArray.push(newArray[i]);
     }
   }
-  return finalArray.toString();
+  return finalArray.toString(" ");
 }
