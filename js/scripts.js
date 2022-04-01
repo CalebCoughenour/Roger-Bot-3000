@@ -38,4 +38,3 @@ $(document).ready(function() {
     $("#number-output").text(finalOutput);
   });
 });
-
