@@ -4,6 +4,16 @@ h1 {
   text-decoration: underline;
 }
 
+body {
+  background-color: #a7a2a2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+  border: 3px solid black;
+  font-size: large;
+}
+
 .form-group {
   text-align: center;
 }
@@ -11,12 +21,18 @@ h1 {
 .jumbotron {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: rgb(245, 245, 245);
+  border: 3px solid black;
 }
 
 .btn {
   margin-top: 20px;
   border: solid 1px black;
   background-color: #dde1e6;
+}
+
+.btn:hover {
+  background-color: #a7a2a2;
 }
 
 .italics {
@@ -34,10 +50,8 @@ h1 {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 3px solid rgb(0, 0, 0);
   border-radius: 0.25rem;
+  font-size: large;
 }
 
-#hide {
-  display: none;
-}

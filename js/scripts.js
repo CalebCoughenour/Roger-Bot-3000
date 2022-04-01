@@ -39,8 +39,3 @@ $(document).ready(function() {
   });
 });
 
-$("#reset-button").click(function(e) {
-  e.preventDefault();
-  $("#hide").hide();
-
-});
