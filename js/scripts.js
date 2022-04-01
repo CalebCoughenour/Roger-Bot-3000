@@ -18,11 +18,14 @@ function rogifyNumbers(number) {
 
   let finalArray = [];
   let countedArray = counter(number);
+  
 
   for (let i = 0; i < countedArray.length; i++) {
-    if (number[i] === 3) {
-      countedArray.shift(number);
-      finalArray.unshift("Won't you be my neighbor?")
+    if (countedArray[i] === 3) {
+      finalArray.push("won't you be my neighbor?");
+      countedArray.shift();
+      console.log(countedArray);
+    }
   }
   return finalArray;
 }

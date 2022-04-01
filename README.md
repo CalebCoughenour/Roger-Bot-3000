@@ -28,6 +28,6 @@ Expected output: ["1", "2", "3", "4", "5"]
 
 rogifyNumbers()
 
-Test: "check all numbers, if they contain 3, if true return "won't you be my neighbor?""
+Test: "check all numbers, if contains 3, return "won't you be my neighbor?""
 Code: rogifyNumbers("3")
-Expected output: ["1", "2", "won't you be my neighbor?"]
+Expected output: ["won't you be my neighbor?"]
