@@ -1,6 +1,6 @@
 function counter(number) {
   if (number.trim().length === 0) {
-    return "Please enter a number";
+    return alert("Please Enter A Number Below");
   }
   let countedArray = [];
   let numberInt = parseInt(number);
@@ -30,10 +30,10 @@ function rogifyNumbers(number) {
 
 
 $(document).ready(function() {
-  $("form#").submit(function(e) {
+  $("#number-form").submit(function(e) {
     e.preventDefault();
-    const output  = $("#").val();
+    const output  = $("#number-input").val();
     const finalOutput = rogifyNumbers(output);
-    $("#").text(finalOutput);
+    $("#number-output").text(finalOutput);
   });
-}):
+});

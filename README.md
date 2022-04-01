@@ -13,7 +13,7 @@
 
 ## Description
 
-_This webpage will ask the user for a number. The script will then count all the way up to that inputted number, but will change certain numbers. If there is a "3" in the number, it will be changed to "Won't you be my neighbor?" If there's not a 3 but also has a 2, it will change the number to "Boop!" And if there's not a "2" or "3" but contains a "1", the number will be changed to "Beep!"._
+_This webpage will ask the user for a number. The script will then count all the way up to that inputted number & display them, but it will also change certain numbers. If there is a "3" in the number, it will be changed to "Won't you be my neighbor?" If there's not a 3 but also has a 2, it will change the number to "Boop!" And if there's not a "2" or "3" but contains a "1", the number will be changed to "Beep!"._
 
 ## Setup/Installation Requirements
 
