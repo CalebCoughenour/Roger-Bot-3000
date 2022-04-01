@@ -15,4 +15,8 @@ counter()
 
 Test: "If given an empty string, return 
 Code: counter("")
-Expected Output: "Please enter a number"
+Expected output: "Please enter a number"
+
+Test: "Split number into an array"
+code: counter("20")
+Expected output: ["20"]
