@@ -10,7 +10,7 @@
 8. Return string
 
 
-counter()
+*counter()*
 
 Test: "If given an empty string, return "Please enter a number""
 Code: counter("")
@@ -22,7 +22,7 @@ Code: counter("5")
 Expected output: ["1", "2", "3", "4", "5"]
 
 
-rogifyNumbers()
+*rogifyNumbers()*
 
 Test: "check all numbers, if contains 3, return "won't you be my neighbor?""
 Code: rogifyNumbers("3")

@@ -12,17 +12,17 @@ function counter(number) {
 
 function rogifyNumbers(number) {
   let finalArray = [];
-  let newArray = counter(number); 
+  let  counterString = counter(number); 
 
-  for (let i = 0; i < newArray.length; i++) {
-    if (newArray[i].includes(3)) {
-      finalArray.push(" won't you be my neighbor?");
-    } else if (newArray[i].includes(2)) {
+  for (let i = 0; i < counterString.length; i++) {
+    if (counterString[i].includes(3)) {
+      finalArray.push(" Won't you be my neighbor?");
+    } else if (counterString[i].includes(2)) {
       finalArray.push(" Boop!");
-    } else if (newArray[i].includes(1)) {
+    } else if (counterString[i].includes(1)) {
       finalArray.push(" Beep!");
     } else {
-      finalArray.push(" " + newArray[i]);
+      finalArray.push(" " + counterString[i]);
     }
   }
   return finalArray.toString();
