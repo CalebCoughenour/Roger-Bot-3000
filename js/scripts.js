@@ -16,14 +16,14 @@ function rogifyNumbers(number) {
 
   for (let i = 0; i < newArray.length; i++) {
     if (newArray[i].includes(3)) {
-      finalArray.push("won't you be my neighbor?");
+      finalArray.push(" won't you be my neighbor?");
     } else if (newArray[i].includes(2)) {
-      finalArray.push("boop");
+      finalArray.push(" Boop!");
     } else if (newArray[i].includes(1)) {
-      finalArray.push("beep");
+      finalArray.push(" Beep!");
     } else {
-      finalArray.push(newArray[i]);
+      finalArray.push(" " + newArray[i]);
     }
   }
-  return finalArray.toString(" ");
+  return finalArray.toString();
 }

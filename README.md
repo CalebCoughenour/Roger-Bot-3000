@@ -38,4 +38,8 @@ Expected output: ["beep"]
 
 Test: "when a number is entered, all numbers outside of rule will display in order"
 Code: rogifyNumbers("6")
+Expected output: "beep","boop","won't you be my neighbor","4","5","6"
+
+Test: "
+Code: rogifyNumbers("6")
 Expected output: ["beep", "boop", "won't you be my neighbor", "4", "5", "6"]
