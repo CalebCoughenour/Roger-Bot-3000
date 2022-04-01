@@ -27,3 +27,13 @@ function rogifyNumbers(number) {
   }
   return finalArray.toString();
 }
+
+
+$(document).ready(function() {
+  $("form#").submit(function(e) {
+    e.preventDefault();
+    const output  = $("#").val();
+    const finalOutput = rogifyNumbers(output);
+    $("#").text(finalOutput);
+  });
+}):
