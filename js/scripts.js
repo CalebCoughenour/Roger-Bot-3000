@@ -41,6 +41,6 @@ $(document).ready(function() {
 
 $("#reset-button").click(function(e) {
   e.preventDefault();
-  $("#card-number-output").hide();
-  $("#number-form").trigger('reset');
-})
+  $("#hide").hide();
+
+});
