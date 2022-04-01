@@ -25,6 +25,8 @@ function rogifyNumbers(number) {
       finalArray.push("won't you be my neighbor?");
     } else if (countedArray[i].includes("2")) {
       finalArray.push("boop");
+    } else if (countedArray[i].includes("1")) {
+      finalArray.push("beep");
     }
   }
   return finalArray;
