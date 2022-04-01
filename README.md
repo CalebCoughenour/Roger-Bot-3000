@@ -31,3 +31,7 @@ rogifyNumbers()
 Test: "check all numbers, if contains 3, return "won't you be my neighbor?""
 Code: rogifyNumbers("3")
 Expected output: ["won't you be my neighbor?"]
+
+Test: "check all number, if contains 2, return "boop""
+Code: rogifyNumbers("2");
+Expected output: ["boop"]
