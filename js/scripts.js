@@ -34,6 +34,7 @@ $(document).ready(function() {
     e.preventDefault();
     const output  = $("#number-input").val();
     const finalOutput = rogifyNumbers(output);
+    $("#card-number-output").show();
     $("#number-output").text(finalOutput);
   });
 });
