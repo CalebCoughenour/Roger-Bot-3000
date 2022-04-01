@@ -13,10 +13,14 @@
 
 counter()
 
-Test: "If given an empty string, return 
+Test: "If given an empty string, return "Please enter a number""
 Code: counter("")
 Expected output: "Please enter a number"
 
 Test: "Split number into an array"
 code: counter("20")
 Expected output: ["20"]
+
+Test: "When a number is entered, the array will count up to that number"
+Code: counter("5")
+Expected output: ["1", "2", "3", "4", "5"]
